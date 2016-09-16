@@ -261,6 +261,7 @@ hr {
 	padding: 140px 0;
 	background: url(../img/services-bg.jpg);
 	background-size: cover;
+  background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 #services .service {
@@ -359,7 +360,7 @@ ol.type li a:hover {
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
-	margin: 0 auto;
+	margin: -15px auto;
 	color: rgba(255,255,255,0.6);
 	background: rgba(0, 0, 0, 0.66);
 	padding: 25% 0;
