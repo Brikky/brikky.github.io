@@ -360,7 +360,7 @@ ol.type li a:hover {
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
-	margin: -15px auto;
+	margin: -20px auto;
 	color: rgba(255,255,255,0.6);
 	background: rgba(0, 0, 0, 0.66);
 	padding: 25% 0;
@@ -387,6 +387,8 @@ ol.type li a:hover {
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
+  position: relative;
+  top: -10px;
 }
 .hover-bg:hover .hover-text>p {
 	opacity: 1;
