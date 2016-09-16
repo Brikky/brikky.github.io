@@ -26,6 +26,7 @@ body, html {
 }
 h1 {
     font-weight: 700;
+    font-size: 60px !important;
 }
 h1 strong {
     font-weight: 900;
@@ -324,6 +325,7 @@ hr {
 }
 ul.cat li {
     display: inline-block;
+    margin: 1vh 3vw;
 }
 ol.type li {
     display: inline-block;
@@ -504,9 +506,8 @@ img.img-thumbnail.team-img {
     background: #f6f6f6;
 }
 #contact .contact-item {
-    padding: 10px;
     margin: 10px;
-    height: 100px;
+    height: auto;
     border-radius: 4px;
 }
 #contact h3 {
