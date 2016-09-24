@@ -54,6 +54,7 @@ h5 {
 }
 p {
     font-size: 14px;
+    text-align: justify;
 }
 a {
     color: #ffa42b;
