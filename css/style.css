@@ -52,10 +52,13 @@ h5 {
     font-weight: 700;
     line-height: 20px;
 }
-p {
+p{
+  font-size: 14px;
+}
+.about-text{
     font-size: 14px;
     text-align: justify;
-    letter-spacing: -.5px;
+    letter-spacing: -.51px;
 }
 a {
     color: #ffa42b;
