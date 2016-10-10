@@ -6,6 +6,7 @@ $color4: rgba(60, 71, 75, 1);
 $color5: rgba(244, 255, 250, 1);
 */
 
+
 body, html {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility !important;
@@ -328,6 +329,24 @@ hr {
     color: rgba(8, 178, 227, .85);
     transition: all 0.5s;
 }
+#django{
+  font-family: sans-serif;
+}
+
+#jquery{
+  background-image: url("/img/jquery.png");
+  background-size: contain;
+  height: 1em;
+  width: 1em;
+
+}
+#python{
+  background-image: url("/img/python.png");
+  background-size: contain;
+  height: 1.5em;
+  width: 1.5em;
+}
+
 
 /* Gallery Section */
 
