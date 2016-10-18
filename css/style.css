@@ -6,6 +6,9 @@ $color4: rgba(60, 71, 75, 1);
 $color5: rgba(244, 255, 250, 1);
 */
 
+div .hover-text{
+  height: 150px !important
+}
 
 body, html {
     font-family: 'Open Sans', sans-serif;
