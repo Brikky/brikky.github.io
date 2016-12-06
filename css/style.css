@@ -614,3 +614,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
         font-size: 5em;
     }
 }
+
+.no-padding{
+  padding: 0 !important;
+  top: 0 !important;
+}
+
+.top-and-bottom{
+  margin: 1em 0;
+}

@@ -15,6 +15,16 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/css\/style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -40,6 +50,14 @@
 		"oAP": "\/img\/django.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/fav-icon.png": {
+		"ft": 32768,
+		"iS": 2338,
+		"oA": 0,
+		"oAP": "\/img\/fav-icon.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/img\/intro-bg.jpg": {
 		"ft": 16384,
@@ -153,9 +171,17 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/portfolio\/shark-byte-demo.gif": {
+		"ft": 4194304,
+		"iS": 362147,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/shark-byte-demo.gif",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/portfolio\/sharkbyte.jpg": {
 		"ft": 16384,
-		"iS": 26690,
+		"iS": 27695,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/sharkbyte.jpg",
 		"oF": 0,
