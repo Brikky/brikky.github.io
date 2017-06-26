@@ -203,8 +203,6 @@ hr {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
@@ -242,10 +240,8 @@ hr {
     padding: 100px 0;
     text-align: center;
     color: rgba(255, 240, 240, 1);
-    background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+    background: url(../img/intro-bg.png) no-repeat center center fixed;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
@@ -360,7 +356,7 @@ hr {
 
 #services {
     padding: 140px 0;
-    background: url(../img/services-bg.jpg);
+    background: url(../img/services-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -465,8 +461,6 @@ ol.type li a:hover {
 
 .isotope, .isotope .isotope-item {
     /* change duration value to whatever you like */
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 
@@ -479,17 +473,15 @@ ol.type li a:hover {
 .isotope {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
     transition-property: height, width;
 }
 
 .isotope .isotope-item {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
+    transition-property: opacity, -webkit-transform;
     transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
 }
 
 .portfolio-item {
@@ -513,10 +505,16 @@ ol.type li a:hover {
     width: 100%;
     opacity: 0;
     transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .hover-bg .hover-text>h4 {
@@ -627,17 +625,13 @@ label {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 2px;
-    -webkit-box-shadow: none;
     box-shadow: none;
-    -webkit-transition: none;
-    -o-transition: none;
     transition: none;
 }
 
 #contact .form-control:focus {
     border-color: inherit;
     outline: 0;
-    -webkit-box-shadow: transparent;
     box-shadow: transparent;
 }
 
@@ -659,7 +653,6 @@ label {
 .btn:active, .btn.active {
     background-image: none;
     outline: 0;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
