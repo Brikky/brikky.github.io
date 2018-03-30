@@ -1,3 +1,5 @@
+window.location.protocol === "https:" ? return : window.location.protocol = "https:";
+
 function main() {
     $(document).ready(function() {
 
